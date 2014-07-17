@@ -24,9 +24,13 @@ if [ "x$VIMRUNTIME" != "x" ]; then
 fi
 
 
-SMILY="( '') "
-FROWNY="( > <) "
+SMILY="( '')  "
+FROWNY="( > <)  "
 FACE_MARK="if [ \$? == 0 ]; then echo \"${SMILY}\"; else echo \"${FROWNY}\"; fi"
 
 export PS1="\n\`${FACE_MARK}\`\w ${git_branch_color}\$(__git_ps1)\n${term_color}\u${normal_color}@${host_color}\h${normal_color} \$ "
 
+# alias
+if [ -f ~/.bashrc.alias ]; then
+    source ~/.bashrc.alias
+fi

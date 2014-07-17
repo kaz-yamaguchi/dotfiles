@@ -60,7 +60,7 @@ augroup vimrc_set_cursorline_only_active_window
 augroup END
 
 " not destroy indent when press enter which line starts with '#'.
-inoremap # #
+inoremap # X#
 
 " Key Mapping
 nmap <esc><esc> :noh<cr>

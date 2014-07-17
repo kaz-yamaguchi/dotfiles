@@ -8,5 +8,8 @@ if [ ! -d ~/.vim/bundle ]; then
 fi
 
 ln -sf ~/git/dotfiles/bash/.bashrc ~/.bashrc
+ln -sf ~/git/dotfiles/bash/.bashrc.alias ~/.bashrc.alias
 ln -sf ~/git/dotfiles/vim/.vimrc ~/.vimrc
 ln -sf ~/git/dotfiles/vim/.vimrc.neobundle ~/.vim/vimrc.neobundle
+ln -sf ~/git/dotfiles/git/.gitconfig ~/.gitconfig
+ln -sf ~/git/dotfiles/git/.gitignore ~/.gitignore
