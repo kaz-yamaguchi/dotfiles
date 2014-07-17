@@ -1,0 +1,31 @@
+[user]
+    name = kaz-yamaguchi
+    email = vent.et.neige@gmail.com
+
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    di = diff
+    dic = diff --cached
+    dt = difftools
+    mt = mergetools
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+[color]
+    ui = auto
+
+[core]
+    excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+
+[diff]
+    tool = vimdiff
+
+[difftool]
+    prompt = false
+
+[merge]
+    tool = vimdiff
+    keepBackup = false
