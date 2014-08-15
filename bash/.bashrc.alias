@@ -4,3 +4,5 @@ alias ls='ls --color=auto'
 if [ $? -eq 0 ]; then
     alias g='git'
 fi
+
+alias tmux='TERM=screen-256color ~/bin/tmux'

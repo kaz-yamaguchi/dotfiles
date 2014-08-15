@@ -13,7 +13,7 @@ host_color='\[\e[01;36m\]' #
 git_branch_color='\[\e[1;35m\]' # 
 normal_color='\[\e[00m\]' # white
 # change color when using screen or tmux
-if [ $TERM = 'screen-bce' -o $TERM = 'screen' ]; then
+if [ $TERM = 'screen-bce' -o $TERM = 'screen' -o $TERM = 'screen-256color' ]; then
     term_color='\[\e[1;35m\]' # light purple
 else
     term_color='\[\e[00m\]' # white
