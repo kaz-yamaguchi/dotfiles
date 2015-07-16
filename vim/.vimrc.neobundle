@@ -2,7 +2,8 @@
 filetype off " required!
 if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim
-    call neobundle#rc(expand('~/.vim/bundle/'))
+    " call neobundle#rc(expand('~/.vim/bundle/'))
+    call neobundle#begin(expand('~/.vim/bundle/'))
     "NeoBundle 'git://github.com/Shougo/neobundle.vim.gir'
     NeoBundle 'Shougo/neobundle.vim'
     NeoBundle 'Shougo/vimproc'
@@ -15,6 +16,7 @@ if has('vim_starting')
     NeoBundle 'tpope/vim-vividchalk'
 
 
+    call neobundle#end()
 endif
 filetype plugin indent on " required!
 syntax on

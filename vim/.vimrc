@@ -46,7 +46,7 @@ set fileformats=unix,dos,mac
 " Syntax
 syntax enable
 syntax on
-colorscheme vividchalk
+colorscheme desert
 set t_Co=256
 highlight CursorLine term=reverse cterm=reverse ctermbg=lightgray guibg=lightgray
 highlight CursorColumn term=reverse cterm=reverse ctermbg=lightgray guibg=lightgray
